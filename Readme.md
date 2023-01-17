@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Maxim Bakulin](https://up.htmlacademy.ru/htmlcss/36/user/2267887).
-* Наставник: `Неизвестно`.
+* Наставник: [Ярослав Баронин](https://htmlacademy.ru/profile/id155830).
 
 ---
 
