@@ -7,7 +7,9 @@
 </head>
   <body>
     <header class="page-header">
+      <a href="index.html">
         <img src="" class="logo" alt="Логотип компании Седона">
+      </a>
         <nav class="navigation">
           <ul class="navugation-list">
   
@@ -28,7 +30,7 @@
             </li>
   
             <li class="navigation-item">
-              <a href="#" class="navigation-link"><span class="Visually-hidden">Понравившиеся</span></a>
+              <a href="#" class="navigation-link"><span class="Visually-hidden">Избранное</span></a>
             </li>
   
             <li class="navigation-item">
@@ -44,15 +46,17 @@
         <header class="inner-header">
           <h1 class="inner-title">Гостиницы Седоны</h1> 
 
-         <ul class="breadcrumbs">
+         <ol class="breadcrumbs">
             <li class="breadcrumbs-item">
-              <span class="visually-hidden"><a href="index.html" class="breadcrumbs-link">Главная страница</a></span>
+              <a href="index.html" class="breadcrumbs-link">
+                <span class="visually-hidden">Главная страница</span>
+              </a>  
             </li>
 
             <li class="breadcrumbs-item">
               <a class="breadcrumbs-link">Гостиницы</a>
             </li>
-         </ul>  
+         </ol>  
            
           <section class="criteria">
             <h2 class="visually-hidden">Критерии выбора гостиницы в Седоне</h2>
@@ -61,6 +65,7 @@
               <fieldset class="filter-criteria-group">
                <legend class="filter-criteria-title">Инфраструктура</legend>
                 <ul class="criteria-list"> 
+
                   <li class="criteria-item">
                    <label class="control">
                     <input type="checkbox" class="control-input" name="Pool" checked>
@@ -121,6 +126,7 @@
               <button class="button-apply" type="submit">Применить</button>
               <button class="button-reset" type="submit">Сбросить</button>
             </form>
+          </section>  
         </header>
 
         <section class="hotels-filter">
@@ -143,11 +149,11 @@
           <a href="#" class="list-options">
             <span class="visually-hidden">Списком</span>
           </a>
-        </section>
+        
 
-        <section class="hotels">
-        <ul>
-        <li class="hotel-list">
+        <div class="hotels">
+        <ul class="hotel-list">
+        <li class="hotel-item">
 
           <a class="hotel-list-link" href="#">
             <img class="hotel-list-image" src="" alt="Вид через отверстие в скале на ночное небо">
@@ -161,7 +167,7 @@
           
         </li>
 
-        <li class="hotel-list">
+        <li class="hotel-item">
           
           <a class="hotel-list-link" href="#">
             <img class="hotel-list-image" src="#" alt="Вид на горы Седоны, над ними радуга и небольшие тучи">
@@ -174,7 +180,7 @@
           <h4>Рейтинг 9,2</h4>
           
         </li>
-        <li class="hotel-list">
+        <li class="hotel-item">
           
           <a class="hotel-list-link" href="#">
             <img class="hotel-list-image" src="#" alt="Вид на горы Седоны, голубое небо, солнечный день">
@@ -188,7 +194,7 @@
           
         </li>
 
-        <li class="hotel-list">
+        <li class="hotel-item">
           
           <a class="hotel-list-link" href="#">
             <img class="hotel-list-image" src="#" alt="Вид на горы Седоны, ночное небо и звезды">
@@ -202,10 +208,10 @@
           
         </li>
         </ul>
-       </section>
+       </div>
 
 
-      <ul class="pagination">
+      <ol class="pagination">
         <li class="pagination-item">
           <a class="pagination-link pagination-prev pagination-disabled">
             <span class="visually-hidden">Предыдущая страница</span>
@@ -223,18 +229,20 @@
         <li class="pagination-item">
           <a class="pagination-link" href="#">4</a>
         </li>
-        <li class="pagination-item">
-          <a class="pagination-link" href="#">5</a>
+        <li class="pagination-dot">
+          <span class="dot">...</span>
+          <!-- как тут можно реализовать эти три точки, через span нормально будет?-->
         </li>
         <li class="pagination-item">
-          <a class="pagination-link pagination-next" href="#">
-            <span class="visually-hidden">Следующая страница</span>
-          </a>
+          <a class="pagination-link" href="#">10</a>
         </li>
-      </ul>
+      </ol>
       <button class="button pagination-show-more" type="button">Показать ещё</button>
-      </main>
 
+      </section>
+      
+
+      <footer class="footer-page">
       <section class="subscription">
         <h2 class="subscription-title">Подпишитесь на рассылку</h2>
         <p class="subscription-title">Только полезная информация и никакого спама, честное бойскаутское!</p>
@@ -246,10 +254,11 @@
           </button>
          </form>
       </section>
+     </main>
 
-      <footer class="footer-page">
-        <section class="social-networks">
-        <span class="visually-hidden">Мы в соцсетях</span>
+      
+      <section class="social-networks">
+        <h2 class="visually-hidden">Мы в соцсетях</h2>
          <ul class="social-list">
 
           <li class="social-item">
@@ -269,15 +278,19 @@
           </li>
 
          </ul>
-        </section> 
+      </section> 
 
-        <section class="telephone-number">
-          <h2 class="number">+7 (812) 812-12-12</h2>
+        <section class="contact-number">
+
+          <h3 class="visually-hidden">Контактный номер телефона</h3>
+          <span class="number">+7 (812) 812-12-12</span>
         </section>
 
         <section class="link-img">
+
+          <h3 class="visually-hiden">Логотип компании</h3>
           <a href="#" class="link-HTML">
-            <img src="" alt="Логотип HTML Академии">
+            <img src="#" alt="Логотип HTML Академии">
           </a>
         </section>
 
