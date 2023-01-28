@@ -10,60 +10,60 @@
         <img src="" class="logo" alt="Логотип компании Седона">
       </a>
         <nav class="navigation">
-          <ul class="navugation-list">
-  
+          <ul class="navigation-list">
+
             <li class="navigation-item">
               <a href="#" class="navigation-link">Главная</a>
             </li>
-  
+
             <li class="navigation-item">
               <a href="#" class="navigation-link">О Седоне</a>
             </li>
-  
+
             <li class="navigation-item">
               <a href="#" class="navigation-link">Гостиницы</a>
             </li>
-  
+
             <li class="navigation-item">
               <a href="#" class="navigation-link"><span class="Visually-hidden">Поиск</span></a>
             </li>
-  
+
             <li class="navigation-item">
               <a href="#" class="navigation-link"><span class="Visually-hidden">Избранное</span></a>
             </li>
-  
+
             <li class="navigation-item">
               <a href="#" class="navigation-link">Хочу сюда!</a>
             </li>
-  
+
           </ul>
         </nav>
-  
+
       </header>
 
       <main class="catalog-page">
         <header class="inner-header">
-          <h1 class="inner-title">Гостиницы Седоны</h1> 
+          <h1 class="inner-title">Гостиницы Седоны</h1>
 
          <ol class="breadcrumbs">
             <li class="breadcrumbs-item">
               <a href="index.html" class="breadcrumbs-link">
                 <span class="visually-hidden">Главная страница</span>
-              </a>  
+              </a>
             </li>
 
             <li class="breadcrumbs-item">
               <a class="breadcrumbs-link">Гостиницы</a>
             </li>
-         </ol>  
-           
+         </ol>
+
           <section class="criteria">
             <h2 class="visually-hidden">Критерии выбора гостиницы в Седоне</h2>
             <form action="https://echo.htmlacademy.ru/" class="filter">
-              
+
               <fieldset class="filter-criteria-group">
                <legend class="filter-criteria-title">Инфраструктура</legend>
-                <ul class="criteria-list"> 
+                <ul class="criteria-list">
 
                   <li class="criteria-item">
                    <label class="control">
@@ -76,15 +76,15 @@
                   <li class="criteria-item">
                     <label class="control">
                       <input type="checkbox" class="control-input" name="Parking" checked>
-                        
+
                       Парковка
                     </label>
                   </li>
-                  
+
                   <li class="criteria-item">
                     <label class="control">
                       <input type="checkbox" class="control-input" name="Wi-Fi">
-                        
+
                       Wi-fi
                     </label>
                   </li>
@@ -119,18 +119,24 @@
                       </label>
                     </li>
                   </ul>
-                  
+              </fieldset>
+              <fieldset>
+                <legend class="price">Стоимость, Р</legend>
+                  <input class="price-min" type="number" placeholder="0">
+                  <input class="price-max" type="number" placeholder="9000">
+                  <input class="range" type="range" name="price-range">
+
               </fieldset>
 
-              <button class="button-apply" type="submit">Применить</button>
-              <button class="button-reset" type="submit">Сбросить</button>
+              <button class="button-apply" type="button">Применить</button>
+              <button class="button-reset" type="button">Сбросить</button>
             </form>
-          </section>  
+          </section>
         </header>
 
         <section class="hotels-filter">
           <h2>Найдено гостиниц: 38</h2>
-            
+
           <select class="select-control" aria-label="Сортировка гостинниц по стоимости">
             <option value="cheap">Сначала дешевые</option>
             <option value="popular">Сначала популярные</option>
@@ -148,7 +154,7 @@
           <a href="#" class="list-options">
             <span class="visually-hidden">Списком</span>
           </a>
-        
+
 
         <div class="hotels">
         <ul class="hotel-list">
@@ -163,11 +169,11 @@
           <a class="hotel-list-button button" href="#">Подробнее</a>
           <a class="hotel-list-button button" href="#">В избранное</a>
           <h4>Рейтинг 8,5</h4>
-          
+
         </li>
 
         <li class="hotel-item">
-          
+
           <a class="hotel-list-link" href="#">
             <img class="hotel-list-image" src="#" alt="Вид на горы Седоны, над ними радуга и небольшие тучи">
             <h3 class="hotel-list-title">Villas at Poco Diablo</h3>
@@ -177,10 +183,10 @@
           <a class="hotel-list-button button" href="#">Подробнее</a>
           <a class="hotel-list-button button" href="#">В избранное</a>
           <h4>Рейтинг 9,2</h4>
-          
+
         </li>
         <li class="hotel-item">
-          
+
           <a class="hotel-list-link" href="#">
             <img class="hotel-list-image" src="#" alt="Вид на горы Седоны, голубое небо, солнечный день">
             <h3 class="hotel-list-title">Desert Quail Inn</h3>
@@ -190,11 +196,11 @@
           <a class="hotel-list-button button" href="#">Подробнее</a>
           <a class="hotel-list-button button" href="#">В избранное</a>
           <h4>Рейтинг 6,9</h4>
-          
+
         </li>
 
         <li class="hotel-item">
-          
+
           <a class="hotel-list-link" href="#">
             <img class="hotel-list-image" src="#" alt="Вид на горы Седоны, ночное небо и звезды">
             <h3 class="hotel-list-title">GreenTree Inn</h3>
@@ -204,7 +210,7 @@
           <a class="hotel-list-button button" href="#">Подробнее</a>
           <a class="hotel-list-button button" href="#">В избранное</a>
           <h4>Рейтинг 5,0</h4>
-          
+
         </li>
         </ul>
        </div>
@@ -230,22 +236,19 @@
         </li>
         <li class="pagination-dot">
           <span class="dot">...</span>
-          <!-- как тут можно реализовать эти три точки, через span нормально будет?-->
         </li>
         <li class="pagination-item">
           <a class="pagination-link" href="#">10</a>
         </li>
       </ol>
-      <button class="button pagination-show-more" type="button">Показать ещё</button>
-
       </section>
-      
 
-      <footer class="footer-page">
+
+
       <section class="subscription">
         <h2 class="subscription-title">Подпишитесь на рассылку</h2>
         <p class="subscription-title">Только полезная информация и никакого спама, честное бойскаутское!</p>
-          
+
          <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
           <input class="field" placeholder="Ваш e-mail" type="email" name="subscription-email">
           <button class="button subscription-button" type="submit">
@@ -255,7 +258,7 @@
       </section>
      </main>
 
-      
+     <footer class="footer-page">
       <section class="social-networks">
         <h2 class="visually-hidden">Мы в соцсетях</h2>
          <ul class="social-list">
@@ -277,15 +280,15 @@
           </li>
 
          </ul>
-      </section> 
+      </section>
 
         <section class="contact-number">
 
           <h3 class="visually-hidden">Контактный номер телефона</h3>
-          <span class="number">+7 (812) 812-12-12</span>
+          <a href="tel:+78128121212">+7-(812)-812-12-12</a>
         </section>
 
-        <section class="link-img">
+        <section class="footer-bottom-logo">
 
           <h3 class="visually-hiden">Логотип компании</h3>
           <a href="#" class="link-HTML">
@@ -295,4 +298,4 @@
 
       </footer>
   </body>
-</html>  
+</html>
