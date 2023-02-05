@@ -1,24 +1,24 @@
 @font-face {
-  font-family: "PT Sans"
+  font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/ptsans-400.woff2") format("woff2")
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
   font-display: swap;
 }
 
 @font-face {
-  font-family: "PT Sans"
+  font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/ptsans-700.woff2") format("woff2")
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
 
 body {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
-  font-height: 21px;
-  background-color: white;
+  line-height: 21px;
+  background-color: #f2f2f2;
   color: #000000;
 }
 
@@ -28,10 +28,122 @@ body {
 }
 
 .navigation-link {
-  font-size: 20px;
-  font-height: 24px;
-  color: inherit;
+  font-family: "PT Sans", sans-serif;
+  line-height: 24px;
+  font-weight: 700px;
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: capitalize;
+}
 
+.hero {
+  color: #000000;
+  background-color: #81B3D3;
+  background-image: url("../images/main/mountain-welkom.jpg");
+  background-repeat: no-repeat;
+
+}
+
+.advantages {
+  background-color: #ffffff
+}
+
+.advantages-head {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.advantages-head-description {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #333333;
+}
+
+.advantages-list {
+  text-align: center;
+ }
+
+.advantages-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #000000
+}
+
+.advantages-description {
+  font-weight: 400;
+  color:#333333;
+  text-align: center;
+}
+
+.advantages-item-secondary {
+  background-color: #82B3D3;
+  color: #ffffff;
+}
+
+.advantages-title-secondary {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.advantages-description-secondary {
+  font-weight: 400;
+  text-align: center;
+}
+
+.services {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.services-item-secondary {
+  background: rgba(131, 179, 211, 0.12);
+}
+
+.services-main-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color:#000000
+}
+
+.services-main-description {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333
+}
+
+.services-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.services-description {
+  font-weight: 400;
+  color: #333333;
+}
+
+.services-hotel-search-button {
+  background-color: #756157;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-decoration: none;
 }
