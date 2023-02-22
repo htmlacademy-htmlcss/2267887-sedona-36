@@ -323,21 +323,21 @@ body {
 }
 
 .subscription {
-  background-color: #ffffff;
+  background-color: #82B3D3;
 }
 
 .subscription-title {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
-  color: #000000;
+  color: #ffffff;
 }
 
 .subscription-description {
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
-  color: #333333;
+  color: #ffffff;
 }
 
 .subscribe {
@@ -352,9 +352,10 @@ body {
   background-color: #ffffff;
 }
 
-.contact-number {
+.contact-number a {
   font-weight: 400;
   font-size: 40px;
   line-height: 40px;
   color: #000000;
+  text-decoration: none;
 }
