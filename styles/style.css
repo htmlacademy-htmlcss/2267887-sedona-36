@@ -359,3 +359,33 @@ body {
   color: #000000;
   text-decoration: none;
 }
+
+.subscription.page-catalog {
+  background-color: #ffffff;
+}
+
+.subscription-title.page-catalog {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.subscription-description.page-catalog {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.hotel-list-button.favorites {
+  background-color: #82B3D3;
+}
+
+.advantages-item {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-item.center {
+  background-color: rgba(131, 179, 211, 0.2);
+}
